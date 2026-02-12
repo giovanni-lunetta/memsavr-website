@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Changelog | MemSavr</title>
+    <meta name="description" content="MemSavr release notes and version history. See what's new in each update.">
+    <link rel="canonical" href="https://savemymemories.app/changelog.html">
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <nav>
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <img src="images/logo.png" alt="MemSavr logo" class="logo-img">
+                MemSavr<span>.app</span>
+            </a>
+
+            <div class="nav-center">
+                <a href="index.html#real-example">Results</a>
+                <a href="index.html#how-it-works">How it works</a>
+                <a href="index.html#demo">Demo</a>
+                <a href="index.html#comparison">Compare</a>
+                <a href="index.html#pricing">Pricing</a>
+                <a href="index.html#faq">FAQ</a>
+            </div>
+
+            <div class="nav-right">
+                <a href="https://buy.polar.sh/polar_cl_F1R601XKoGREXw1PxwvhUVIYz859VlG83okyn2I1WCI"
+                    class="nav-cta desktop-only" target="_blank" rel="noopener noreferrer">Buy &amp; Download for Mac —
+                    $10</a>
+                <button class="mobile-menu-btn" aria-label="Open menu" aria-expanded="false">☰</button>
+            </div>
+        </div>
+
+        <div class="mobile-menu">
+            <a href="index.html#real-example">Results</a>
+            <a href="index.html#how-it-works">How it works</a>
+            <a href="index.html#demo">Demo</a>
+            <a href="index.html#comparison">Compare</a>
+            <a href="index.html#pricing">Pricing</a>
+            <a href="index.html#faq">FAQ</a>
+            <a href="https://buy.polar.sh/polar_cl_F1R601XKoGREXw1PxwvhUVIYz859VlG83okyn2I1WCI" class="nav-cta"
+                style="margin: 1rem 20px; display: inline-block; text-align: center;" target="_blank"
+                rel="noopener noreferrer">Buy &amp; Download for Mac — $10</a>
+        </div>
+    </nav>
+
+    <!-- CHANGELOG HEADER -->
+    <section class="hero" style="padding: 6rem 0 3rem;">
+        <div class="container">
+            <h1 style="font-size: 2.5rem;">
+                Release <span class="gradient-text">Notes</span>
+            </h1>
+            <p style="max-width: 600px; margin: 0 auto;">
+                What's new in MemSavr. Stay updated with the latest features, improvements, and bug fixes.
+            </p>
+        </div>
+    </section>
+
+    <!-- RELEASE NOTES -->
+    <section id="release-notes" style="padding-top: 2rem;">
+        <div class="container">
+            <div class="changelog-container">
+                <!-- v1.0.8 - Latest (Expanded by default) -->
+                <details class="changelog-entry" open>
+                    <summary class="changelog-version">
+                        <span class="version-badge">v1.0.8</span>
+                        <span class="version-date">January 14, 2026</span>
+                    </summary>
+                    <ul class="changelog-list">
+                        <li>Security — Fixed 17 vulnerabilities (3 CRITICAL, 8 HIGH severity) - 85% risk reduction</li>
+                        <li>Security — ZIP bomb protection with size limits (100k files, 50GB max)</li>
+                        <li>Security — Path traversal (Zip Slip) protection against malicious archives</li>
+                        <li>Security — Command injection prevention in process cleanup</li>
+                        <li>Security — TOCTOU race condition fix in directory validation</li>
+                        <li>Security — ZIP path validation before subprocess execution</li>
+                        <li>Security — Recursive symlink protection in directory deletion</li>
+                        <li>Security — Rate limiting on license validation (5 attempts/minute)</li>
+                        <li>Security — Auto-updater downgrade attack protection</li>
+                        <li>Website — Added security headers (CSP, X-Frame-Options, XSS protection)</li>
+                        <li>Website — Fixed mobile image overlap in comparison section</li>
+                        <li>Website — Fixed date pills spanning full image width on mobile</li>
+                        <li>Website — Fixed image centering on mobile devices</li>
+                        <li>Website — Fixed contact form layout on mobile</li>
+                        <li>Website — Fixed contact form submission (Page Not Found error)</li>
+                        <li>Documentation — Added Python requirements.txt for dependency tracking</li>
+                    </ul>
+                </details>
+
+                <!-- v1.0.7 -->
+                <details class="changelog-entry">
+                    <summary class="changelog-version">
+                        <span class="version-badge">v1.0.7</span>
+                        <span class="version-date">January 9, 2026</span>
+                    </summary>
+                    <ul class="changelog-list">
+                        <li>Payment Platform — Migrated from LemonSqueezy to Polar.sh ($15 → $10 launch pricing)</li>
+                        <li>Security — SSRF protection with URL validation and redirect blocking</li>
+                        <li>Security — ZIP symlink blocking to prevent local file disclosure</li>
+                        <li>Website — Added sticky mobile CTA bar for better mobile conversion</li>
+                        <li>Website — Enhanced hero copy with outcome-focused messaging</li>
+                        <li>Website — Added 14-day money-back guarantee and trust badges</li>
+                        <li>Performance — Image optimization with lazy loading and explicit dimensions</li>
+                        <li>Accessibility — Added keyboard navigation skip link (WCAG compliance)</li>
+                        <li>Bug Fix — Cloud Mode resume UI now shows "Resuming..." status</li>
+                    </ul>
+                </details>
+
+                <!-- v1.0.6 - Collapsed -->
+                <details class="changelog-entry">
+                    <summary class="changelog-version">
+                        <span class="version-badge">v1.0.6</span>
+                        <span class="version-date">January 8, 2026</span>
+                    </summary>
+                    <ul class="changelog-list">
+                        <li>Security — Download URL validation, content-length checks, IPC sender validation</li>
+                        <li>iCloud Support — Resume processing even after files are offloaded</li>
+                        <li>Resume Options — Choose Trust, Verify, or Start Fresh modes</li>
+                        <li>Completion Summary — Enhanced modal with timestamp collision detection</li>
+                        <li>UI Redesign — Modern card-based resume modal with clear visual hierarchy</li>
+                        <li>External Drive Safety — Prevents silent failures on USB drive roots</li>
+                        <li>Bug Fixes — 0-byte placeholder fix, graceful pause, accurate manifest counts</li>
+                    </ul>
+                </details>
+
+                <!-- v1.0.5 - Collapsed -->
+                <details class="changelog-entry">
+                    <summary class="changelog-version">
+                        <span class="version-badge">v1.0.5</span>
+                        <span class="version-date">January 3, 2026</span>
+                    </summary>
+                    <ul class="changelog-list">
+                        <li>Performance — 20x faster verification, true offline ZIP processing</li>
+                        <li>Security — Critical data loss prevention with output directory safety guard</li>
+                        <li>Performance — 30-50% faster downloads via HTTP session pooling</li>
+                        <li>Reliability — Prevents silent file overwrites during batch organization</li>
+                        <li>Quality — 15 total improvements (code quality, security, performance, reliability)</li>
+                    </ul>
+                </details>
+
+                <!-- Earlier Versions (v1.0.0 - v1.0.4) -->
+                <details class="changelog-entry">
+                    <summary class="changelog-version">
+                        <span class="version-badge">v1.0.0 - v1.0.4</span>
+                        <span class="version-date">Earlier Releases</span>
+                    </summary>
+                    <ul class="changelog-list">
+                        <li><strong>v1.0.4</strong> (Jan 2, 2026) — GPL Compliance fixes, resume feature fix, FFmpeg
+                            source availability</li>
+                        <li><strong>v1.0.3</strong> (Dec 31, 2025) — Security updates, Electron v39.2.7 upgrade,
+                            Auto-Find ZIP feature</li>
+                        <li><strong>v1.0.2</strong> (Dec 30, 2025) — Security hardening, 5 critical vulnerability fixes,
+                            100MB installer size reduction</li>
+                        <li><strong>v1.0.1</strong> (Dec 30, 2025) — UI refinements, Fast Pass optimization, improved
+                            ETA accuracy</li>
+                        <li><strong>v1.0.0</strong> (Dec 30, 2025) — Initial public release, fully notarized for macOS
+                            Apple Silicon</li>
+                    </ul>
+                </details>
+
+                <!-- Coming Soon - Expanded by default -->
+                <details class="changelog-entry coming-soon" open>
+                    <summary class="changelog-version">
+                        <span class="version-badge upcoming">Coming Soon</span>
+                    </summary>
+                    <ul class="changelog-list">
+                        <li>Intel Mac support (x86_64)</li>
+                        <li>Windows compatibility</li>
+                        <li>Instagram & Facebook memory exports</li>
+                        <li>Direct Google Photos integration</li>
+                    </ul>
+                </details>
+            </div>
+
+            <div style="text-align: center; margin-top: 3rem;">
+                <a href="index.html" class="btn btn-secondary">← Back to Home</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-logo">MemSavr<span>.app</span></div>
+
+            <div class="footer-links">
+                <a href="index.html#features">Features</a>
+                <a href="index.html#export-guide">Export Guide</a>
+                <a href="index.html#faq">FAQ</a>
+                <a href="changelog.html">Changelog</a>
+                <a href="index.html#" onclick="openContactModal(); return false;">Contact</a>
+                <a href="https://savemymemories.app/licenses/ffmpeg-source.zip">Open Source / Licenses</a>
+            </div>
+
+            <p style="font-size: 0.85rem; color: var(--text-muted);">
+                Requires macOS 11+ and Apple Silicon (M1, M2, M3, or M4)
+            </p>
+
+            <p>&copy; 2026 Giovanni Lunetta. All rights reserved.</p>
+
+            <p class="disclaimer">
+                MemSavr is a third-party utility and is not affiliated with, endorsed by, or sponsored by any social
+                media platform.
+                All trademarks are property of their respective owners. Use of platform names is for descriptive
+                purposes only under nominative fair use.
+            </p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
