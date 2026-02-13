@@ -1,17 +1,18 @@
 /* --- CSS VARIABLES & RESET --- */
 :root {
-    --bg-dark: #0f172a;
-    --bg-card: #1e293b;
-    --bg-card-hover: #253347;
-    --text-main: #f8fafc;
-    --text-muted: #94a3b8;
-    --accent-green: #2cc069;
-    --accent-green-hover: #25a35a;
-    --accent-blue: #3b8ed0;
-    --accent-orange: #f59e0b;
-    --gradient-main: linear-gradient(135deg, #2cc069 0%, #3b8ed0 100%);
-    --border-color: rgba(255, 255, 255, 0.08);
-    --border-hover: rgba(44, 192, 105, 0.5);
+    /* Stormy Morning Palette - Blues & Grays */
+    --bg-dark: #1a2332;              /* Deep stormy blue */
+    --bg-card: #2a3544;              /* Lighter storm blue */
+    --bg-card-hover: #384959;        /* Darkest blue from palette */
+    --text-main: #f8fafc;            /* Clean white */
+    --text-muted: #b0c4d4;           /* Soft blue-gray */
+    --accent-primary: #88BDF2;       /* Sky blue (main accent) */
+    --accent-primary-hover: #6A89A7; /* Muted blue (hover) */
+    --accent-secondary: #BDDFC;      /* Light blue (incomplete hex, using #BBDDFF) */
+    --accent-tertiary: #6A89A7;      /* Muted slate blue */
+    --gradient-main: linear-gradient(135deg, #6A89A7 0%, #88BDF2 50%, #BBDDFF 100%);
+    --border-color: rgba(136, 189, 242, 0.15);
+    --border-hover: rgba(136, 189, 242, 0.5);
     --nav-height: 70px;
     --nav-height-shrunk: 56px;
 }
@@ -229,7 +230,7 @@ nav.scrolled .nav-container {
 }
 
 .nav-center a:hover {
-    color: var(--accent-green);
+    color: var(--accent-primary);
 }
 
 .nav-center a::after {
@@ -249,7 +250,7 @@ nav.scrolled .nav-container {
 }
 
 .nav-center a.active {
-    color: var(--accent-green);
+    color: var(--accent-primary);
 }
 
 .nav-cta {
@@ -319,7 +320,7 @@ nav.scrolled .nav-container {
 }
 
 .mobile-menu a:hover {
-    color: var(--accent-green);
+    color: var(--accent-primary);
     background: rgba(44, 192, 105, 0.1);
 }
 
@@ -374,7 +375,7 @@ nav.scrolled .nav-container {
 
 .btn-secondary:hover {
     background: rgba(255, 255, 255, 0.1);
-    border-color: var(--accent-green);
+    border-color: var(--accent-primary);
     transform: translateY(-3px);
 }
 
@@ -411,7 +412,7 @@ nav.scrolled .nav-container {
     gap: 6px;
     padding: 6px 14px;
     background: rgba(44, 192, 105, 0.1);
-    color: var(--accent-green);
+    color: var(--accent-primary);
     border-radius: 50px;
     font-size: 0.85rem;
     font-weight: 600;
@@ -420,7 +421,7 @@ nav.scrolled .nav-container {
 
 .hero-badge-pill.notarized {
     background: rgba(59, 142, 208, 0.1);
-    color: var(--accent-blue);
+    color: var(--accent-secondary);
     border-color: rgba(59, 142, 208, 0.3);
 }
 
@@ -498,7 +499,7 @@ nav.scrolled .nav-container {
 }
 
 .carousel-dots .dot.active {
-    background: var(--accent-green);
+    background: var(--accent-primary);
     width: 28px;
     border-radius: 5px;
 }
@@ -518,7 +519,7 @@ nav.scrolled .nav-container {
 }
 
 .carousel-arrow:hover {
-    color: var(--accent-green);
+    color: var(--accent-primary);
     transform: scale(1.2);
 }
 
@@ -560,7 +561,7 @@ nav.scrolled .nav-container {
 }
 
 .comparison-card.after .comparison-card-header {
-    color: var(--accent-green);
+    color: var(--accent-primary);
 }
 
 .mock-timeline-item {
@@ -589,7 +590,7 @@ nav.scrolled .nav-container {
 }
 
 .comparison-card.after .mock-timeline-item .date {
-    color: var(--accent-green);
+    color: var(--accent-primary);
 }
 
 /* --- HOW IT WORKS (3 Steps) --- */
@@ -748,7 +749,7 @@ nav.scrolled .nav-container {
 
 .feature-card:hover .feature-icon {
     transform: scale(1.1);
-    border-color: var(--accent-green);
+    border-color: var(--accent-primary);
 }
 
 .feature-card h3 {
@@ -815,7 +816,7 @@ nav.scrolled .nav-container {
 }
 
 .diff-global-btn:focus-visible {
-    outline: 2px solid var(--accent-blue);
+    outline: 2px solid var(--accent-secondary);
     outline-offset: 2px;
 }
 
@@ -1166,7 +1167,7 @@ nav.scrolled .nav-container {
 }
 
 .caption-accent {
-    color: var(--accent-green);
+    color: var(--accent-primary);
     font-weight: 600;
 }
 
@@ -1243,8 +1244,8 @@ nav.scrolled .nav-container {
 
 .comparison-header.memsavr {
     background: rgba(44, 192, 105, 0.15);
-    color: var(--accent-green);
-    border-left: 2px solid var(--accent-green);
+    color: var(--accent-primary);
+    border-left: 2px solid var(--accent-primary);
 }
 
 .comparison-row {
@@ -1273,11 +1274,11 @@ nav.scrolled .nav-container {
 
 .comparison-cell.memsavr {
     background: rgba(44, 192, 105, 0.08);
-    color: var(--accent-green);
+    color: var(--accent-primary);
     font-weight: 600;
     justify-content: center;
     text-align: center;
-    border-left: 2px solid var(--accent-green);
+    border-left: 2px solid var(--accent-primary);
 }
 
 .comparison-caption {
@@ -1289,7 +1290,7 @@ nav.scrolled .nav-container {
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
-    color: var(--accent-green);
+    color: var(--accent-primary);
     font-weight: 600;
     font-size: 1.1rem;
 }
@@ -1352,7 +1353,7 @@ nav.scrolled .nav-container {
     }
 
     .memsavr-card h4 {
-        color: var(--accent-green);
+        color: var(--accent-primary);
     }
 }
 
@@ -1654,7 +1655,7 @@ nav.scrolled .nav-container {
 }
 
 .step-text a {
-    color: var(--accent-green);
+    color: var(--accent-primary);
 }
 
 .step-alert {
@@ -1736,7 +1737,7 @@ nav.scrolled .nav-container {
     background: rgba(44, 192, 105, 0.15);
     border: 1px solid rgba(44, 192, 105, 0.3);
     border-radius: 6px;
-    color: var(--accent-green);
+    color: var(--accent-primary);
     font-size: 20px;
     font-weight: 600;
     line-height: 1;
@@ -1796,7 +1797,7 @@ details[open] .changelog-version::after {
     top: 10px;
     width: 6px;
     height: 6px;
-    background: var(--accent-green);
+    background: var(--accent-primary);
     border-radius: 50%;
 }
 
@@ -1841,7 +1842,7 @@ details[open] .changelog-version::after {
 }
 
 .lightbox-close:hover {
-    color: var(--accent-green);
+    color: var(--accent-primary);
 }
 
 /* --- FOOTER --- */
@@ -1888,7 +1889,7 @@ footer::before {
 }
 
 .footer-links a:hover {
-    color: var(--accent-green);
+    color: var(--accent-primary);
 }
 
 footer p {
@@ -2173,7 +2174,7 @@ footer p {
 }
 
 .comparison-title.good {
-    color: var(--accent-green);
+    color: var(--accent-primary);
     border-color: rgba(44, 192, 105, 0.3);
 }
 
@@ -2211,7 +2212,7 @@ footer p {
 }
 
 .comparison-item.good:hover .comparison-box {
-    border-color: var(--accent-green);
+    border-color: var(--accent-primary);
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4),
         0 14px 30px rgba(44, 192, 105, 0.28);
 }
@@ -2330,7 +2331,7 @@ footer p {
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35),
         0 0 0 1px rgba(44, 192, 105, 0.35);
     /* Stronger depth with a green edge */
-    border-color: var(--accent-green);
+    border-color: var(--accent-primary);
 }
 
 .comparison-result {
@@ -2354,7 +2355,7 @@ footer p {
 
 .good-result {
     background: rgba(44, 192, 105, 0.08);
-    color: var(--accent-green);
+    color: var(--accent-primary);
 }
 
 @media (max-width: 768px) {
