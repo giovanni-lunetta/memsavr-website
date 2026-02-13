@@ -64,11 +64,11 @@ section[id] {
 
     0%,
     100% {
-        box-shadow: 0 0 0 0 rgba(44, 192, 105, 0.4);
+        box-shadow: 0 0 0 0 rgba(136, 189, 242, 0.4);
     }
 
     50% {
-        box-shadow: 0 0 0 15px rgba(44, 192, 105, 0);
+        box-shadow: 0 0 0 15px rgba(136, 189, 242, 0);
     }
 }
 
@@ -260,14 +260,14 @@ nav.scrolled .nav-container {
     border-radius: 8px;
     font-weight: 600;
     transition: all 0.3s;
-    box-shadow: 0 4px 15px rgba(44, 192, 105, 0.3);
+    box-shadow: 0 4px 15px rgba(136, 189, 242, 0.3);
     text-decoration: none;
     white-space: nowrap;
 }
 
 .nav-cta:hover {
     transform: translateY(-2px);
-    box-shadow: 0 6px 20px rgba(44, 192, 105, 0.4);
+    box-shadow: 0 6px 20px rgba(136, 189, 242, 0.4);
 }
 
 /* Mobile Menu */
@@ -280,7 +280,7 @@ nav.scrolled .nav-container {
     cursor: pointer;
     padding: 12px;
     z-index: 1001;
-    -webkit-tap-highlight-color: rgba(44, 192, 105, 0.2);
+    -webkit-tap-highlight-color: rgba(136, 189, 242, 0.2);
     transition: transform 0.15s ease;
 }
 
@@ -321,7 +321,7 @@ nav.scrolled .nav-container {
 
 .mobile-menu a:hover {
     color: var(--accent-primary);
-    background: rgba(44, 192, 105, 0.1);
+    background: rgba(136, 189, 242, 0.1);
 }
 
 /* --- BUTTONS --- */
@@ -342,12 +342,12 @@ nav.scrolled .nav-container {
     background: var(--gradient-main);
     color: #ffffff;
     border: none;
-    box-shadow: 0 4px 20px rgba(44, 192, 105, 0.4);
+    box-shadow: 0 4px 20px rgba(136, 189, 242, 0.4);
 }
 
 .btn-primary:hover {
     transform: translateY(-3px);
-    box-shadow: 0 8px 30px rgba(44, 192, 105, 0.5);
+    box-shadow: 0 8px 30px rgba(136, 189, 242, 0.5);
 }
 
 .btn-primary::before {
@@ -394,7 +394,7 @@ nav.scrolled .nav-container {
     transform: translateX(-50%);
     width: 800px;
     height: 800px;
-    background: radial-gradient(circle, rgba(44, 192, 105, 0.1) 0%, transparent 70%);
+    background: radial-gradient(circle, rgba(136, 189, 242, 0.1) 0%, transparent 70%);
     pointer-events: none;
 }
 
@@ -411,12 +411,12 @@ nav.scrolled .nav-container {
     align-items: center;
     gap: 6px;
     padding: 6px 14px;
-    background: rgba(44, 192, 105, 0.1);
+    background: rgba(136, 189, 242, 0.1);
     color: var(--accent-primary);
     border-radius: 50px;
     font-size: 0.85rem;
     font-weight: 600;
-    border: 1px solid rgba(44, 192, 105, 0.3);
+    border: 1px solid rgba(136, 189, 242, 0.3);
 }
 
 .hero-badge-pill.notarized {
@@ -456,7 +456,7 @@ nav.scrolled .nav-container {
     width: 100%;
     overflow: hidden;
     border-radius: 16px;
-    box-shadow: 0 30px 80px -20px rgba(0, 0, 0, 0.6), 0 0 40px rgba(44, 192, 105, 0.1);
+    box-shadow: 0 30px 80px -20px rgba(0, 0, 0, 0.6), 0 0 40px rgba(136, 189, 242, 0.1);
     border: 1px solid var(--border-color);
 }
 
@@ -544,7 +544,7 @@ nav.scrolled .nav-container {
 }
 
 .comparison-card.after {
-    border-color: rgba(44, 192, 105, 0.3);
+    border-color: rgba(136, 189, 242, 0.3);
 }
 
 .comparison-card-header {
@@ -726,7 +726,7 @@ nav.scrolled .nav-container {
 .feature-card:hover {
     transform: translateY(-8px);
     border-color: var(--border-hover);
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2), 0 0 30px rgba(44, 192, 105, 0.1);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2), 0 0 30px rgba(136, 189, 242, 0.1);
 }
 
 .feature-card:hover::before {
@@ -736,14 +736,14 @@ nav.scrolled .nav-container {
 .feature-icon {
     width: 56px;
     height: 56px;
-    background: linear-gradient(135deg, rgba(44, 192, 105, 0.15) 0%, rgba(59, 142, 208, 0.15) 100%);
+    background: linear-gradient(135deg, rgba(136, 189, 242, 0.15) 0%, rgba(59, 142, 208, 0.15) 100%);
     border-radius: 14px;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 1.8rem;
     margin-bottom: 1.2rem;
-    border: 1px solid rgba(44, 192, 105, 0.2);
+    border: 1px solid rgba(136, 189, 242, 0.2);
     transition: all 0.3s;
 }
 
@@ -1243,7 +1243,7 @@ nav.scrolled .nav-container {
 }
 
 .comparison-header.memsavr {
-    background: rgba(44, 192, 105, 0.15);
+    background: rgba(136, 189, 242, 0.15);
     color: var(--accent-primary);
     border-left: 2px solid var(--accent-primary);
 }
@@ -1273,7 +1273,7 @@ nav.scrolled .nav-container {
 }
 
 .comparison-cell.memsavr {
-    background: rgba(44, 192, 105, 0.08);
+    background: rgba(136, 189, 242, 0.08);
     color: var(--accent-primary);
     font-weight: 600;
     justify-content: center;
@@ -1285,7 +1285,7 @@ nav.scrolled .nav-container {
     text-align: center;
     margin-top: 2rem;
     padding: 1rem 1.5rem;
-    background: linear-gradient(135deg, rgba(44, 192, 105, 0.1), rgba(44, 192, 105, 0.05));
+    background: linear-gradient(135deg, rgba(136, 189, 242, 0.1), rgba(136, 189, 242, 0.05));
     border-radius: 12px;
     max-width: 600px;
     margin-left: auto;
@@ -1348,8 +1348,8 @@ nav.scrolled .nav-container {
     }
 
     .memsavr-card {
-        background: rgba(44, 192, 105, 0.1);
-        border: 1px solid rgba(44, 192, 105, 0.3);
+        background: rgba(136, 189, 242, 0.1);
+        border: 1px solid rgba(136, 189, 242, 0.3);
     }
 
     .memsavr-card h4 {
@@ -1370,7 +1370,7 @@ nav.scrolled .nav-container {
     transform: translate(-50%, -50%);
     width: 600px;
     height: 600px;
-    background: radial-gradient(circle, rgba(44, 192, 105, 0.08) 0%, transparent 70%);
+    background: radial-gradient(circle, rgba(136, 189, 242, 0.08) 0%, transparent 70%);
     pointer-events: none;
 }
 
@@ -1402,7 +1402,7 @@ nav.scrolled .nav-container {
 
 .pricing-card:hover {
     transform: translateY(-10px);
-    box-shadow: 0 30px 60px rgba(0, 0, 0, 0.3), 0 0 50px rgba(44, 192, 105, 0.15);
+    box-shadow: 0 30px 60px rgba(0, 0, 0, 0.3), 0 0 50px rgba(136, 189, 242, 0.15);
 }
 
 .pricing-badge {
@@ -1734,8 +1734,8 @@ nav.scrolled .nav-container {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: rgba(44, 192, 105, 0.15);
-    border: 1px solid rgba(44, 192, 105, 0.3);
+    background: rgba(136, 189, 242, 0.15);
+    border: 1px solid rgba(136, 189, 242, 0.3);
     border-radius: 6px;
     color: var(--accent-primary);
     font-size: 20px;
@@ -1748,14 +1748,14 @@ nav.scrolled .nav-container {
 /* When expanded, show minus */
 details[open] .changelog-version::after {
     content: '−';
-    background: rgba(44, 192, 105, 0.25);
-    border-color: rgba(44, 192, 105, 0.5);
+    background: rgba(136, 189, 242, 0.25);
+    border-color: rgba(136, 189, 242, 0.5);
 }
 
 /* Hover effect */
 .changelog-version:hover::after {
-    background: rgba(44, 192, 105, 0.3);
-    border-color: rgba(44, 192, 105, 0.6);
+    background: rgba(136, 189, 242, 0.3);
+    border-color: rgba(136, 189, 242, 0.6);
     transform: translateY(-50%) scale(1.1);
 }
 
@@ -2142,9 +2142,9 @@ footer p {
 }
 
 .comparison-item.good .comparison-box {
-    border-color: rgba(44, 192, 105, 0.35);
-    box-shadow: 0 0 0 1px rgba(44, 192, 105, 0.22),
-        0 12px 28px rgba(44, 192, 105, 0.12);
+    border-color: rgba(136, 189, 242, 0.35);
+    box-shadow: 0 0 0 1px rgba(136, 189, 242, 0.22),
+        0 12px 28px rgba(136, 189, 242, 0.12);
     padding: 1.75rem 1.25rem;
     max-width: 380px;
     width: 100%;
@@ -2175,7 +2175,7 @@ footer p {
 
 .comparison-title.good {
     color: var(--accent-primary);
-    border-color: rgba(44, 192, 105, 0.3);
+    border-color: rgba(136, 189, 242, 0.3);
 }
 
 .comparison-box {
@@ -2214,7 +2214,7 @@ footer p {
 .comparison-item.good:hover .comparison-box {
     border-color: var(--accent-primary);
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4),
-        0 14px 30px rgba(44, 192, 105, 0.28);
+        0 14px 30px rgba(136, 189, 242, 0.28);
 }
 
 .comparison-item:hover .comparison-box {
@@ -2319,7 +2319,7 @@ footer p {
     max-width: 100%;
     max-height: 440px;
     border-radius: 10px;
-    border: 1px solid rgba(44, 192, 105, 0.5);
+    border: 1px solid rgba(136, 189, 242, 0.5);
     /* Semi-transparent green */
     margin-bottom: 0.75rem;
     box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
@@ -2329,7 +2329,7 @@ footer p {
 
 .comparison-item:hover .merged-result img {
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35),
-        0 0 0 1px rgba(44, 192, 105, 0.35);
+        0 0 0 1px rgba(136, 189, 242, 0.35);
     /* Stronger depth with a green edge */
     border-color: var(--accent-primary);
 }
@@ -2354,7 +2354,7 @@ footer p {
 }
 
 .good-result {
-    background: rgba(44, 192, 105, 0.08);
+    background: rgba(136, 189, 242, 0.08);
     color: var(--accent-primary);
 }
 
