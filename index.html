@@ -548,65 +548,65 @@
                     class="gradient-text">Questions</span></h2>
 
             <div class="faq-grid">
-                <div class="faq-item">
-                    <h3>Is this safe? Do you see my photos?</h3>
+                <details class="faq-item">
+                    <summary>Is this safe? Do you see my photos?</summary>
                     <p>It is 100% safe. DateBack is a local desktop utility that runs entirely offline on your computer.
                         Your photos are never uploaded, tracked, or seen by anyone but you.</p>
-                </div>
+                </details>
 
-                <div class="faq-item">
-                    <h3>Does this work on Windows or Intel Macs?</h3>
+                <details class="faq-item">
+                    <summary>Does this work on Windows or Intel Macs?</summary>
                     <p><strong>Apple Silicon Macs only</strong> (M1, M2, M3, M4). Intel Macs and Windows are not
                         currently supported. Future versions may expand compatibility.</p>
-                </div>
+                </details>
 
-                <div class="faq-item">
-                    <h3>My download is 100GB+. Will this work?</h3>
+                <details class="faq-item">
+                    <summary>My download is 100GB+. Will this work?</summary>
                     <p>Yes! We specifically built Cloud Mode for this. Unlike other tools that crash trying to unzip
                         everything at once, DateBack streams one file at a time. It handles massive libraries
                         effortlessly.</p>
-                </div>
+                </details>
 
-                <div class="faq-item">
-                    <h3>What is Cloud Mode?</h3>
+                <details class="faq-item">
+                    <summary>What is Cloud Mode?</summary>
                     <p>Cloud Mode processes your memories in batches of 500 and automatically delivers each batch to a
                         cloud folder you choose — iCloud Drive, Google Drive, OneDrive, Dropbox, or Box. After each
                         batch completes, the app pauses so you can continue to the next batch or stop for now. The
                         <strong>Open Output Folder</strong> button in Cloud Mode opens your cloud destination folder
                         directly.</p>
-                </div>
+                </details>
 
-                <div class="faq-item">
-                    <h3>How does setup work?</h3>
+                <details class="faq-item">
+                    <summary>How does setup work?</summary>
                     <p>DateBack walks you through five steps: (1) select your downloaded Snapchat ZIP — drag-and-drop,
                         browse, or use the auto-find button; (2) choose where memories will be stored; (3) review the
                         storage check; (4) pick Computer or Cloud mode; (5) if you chose Cloud, select a destination
                         folder and optionally adjust Advanced settings. If you don't choose a folder, memories are saved
                         to <strong>~/Pictures/SnapchatMemories</strong> by default.</p>
-                </div>
+                </details>
 
-                <div class="faq-item">
-                    <h3>Can I resume if I stop midway?</h3>
+                <details class="faq-item">
+                    <summary>Can I resume if I stop midway?</summary>
                     <p>Yes. When you restart processing on an existing output folder, DateBack shows a resume modal with
                         three options: <strong>Skip Already Processed</strong> — fast resume using saved progress
                         (recommended); <strong>Verify Files</strong> — double-checks files on disk, safer but slower;
                         or <strong>Start Fresh</strong> — clears the folder and begins again. In Computer mode you can
                         also enable <em>Pause after every batch (500 files)</em> to pause automatically between
                         batches.</p>
-                </div>
+                </details>
 
-                <div class="faq-item">
-                    <h3>How does licensing and activation work?</h3>
+                <details class="faq-item">
+                    <summary>How does licensing and activation work?</summary>
                     <p>DateBack does not have an in-app purchase flow. After you buy a license you receive a license key
                         by email. Open DateBack, enter that key in the activation modal when prompted, and click
                         <strong>Activate License</strong>. If activation succeeds the app is fully unlocked. If you
                         have trouble, email
                         <a href="mailto:support@dateback.app">support@dateback.app</a>.
                     </p>
-                </div>
+                </details>
 
-                <div class="faq-item">
-                    <h3>I got a weird error that I can't fix. What should I do?</h3>
+                <details class="faq-item">
+                    <summary>I got a weird error that I can't fix. What should I do?</summary>
                     <p>If you're experiencing an error, first try restarting the app. If the problem persists,
                         <strong>export your support logs</strong> by going to <strong>Help → Export Support
                             Logs</strong> in the app's menu. This creates a ZIP file with diagnostic information. Then,
@@ -614,61 +614,61 @@
                         along with a description of the issue. This helps us identify and fix the exact cause of your
                         error quickly!
                     </p>
-                </div>
+                </details>
             </div>
 
             <h3 style="text-align: center; margin: 3.5rem 0 2rem;">Troubleshooting</h3>
             <div class="faq-grid">
-                <div class="faq-item">
-                    <h3>License key not recognized</h3>
+                <details class="faq-item">
+                    <summary>License key not recognized</summary>
                     <p>Double-check that you copied the full key from your purchase email with no extra spaces. If the
                         key looks correct but the app still shows <em>"License key not recognized. Please verify your
                             key or contact support."</em>, email
                         <a href="mailto:support@dateback.app">support@dateback.app</a>
                         with your purchase receipt.
                     </p>
-                </div>
+                </details>
 
-                <div class="faq-item">
-                    <h3>Failed to validate license / check your internet connection</h3>
+                <details class="faq-item">
+                    <summary>Failed to validate license / check your internet connection</summary>
                     <p>DateBack validates your license key over the internet. If you see <em>"Failed to validate
                             license. Please check your internet connection."</em>, make sure you are online and try
                         again. If you see <em>"Too many validation attempts. Please wait 60 seconds and try
                             again."</em>, wait a minute and resubmit.</p>
-                </div>
+                </details>
 
-                <div class="faq-item">
-                    <h3>ZIP file is invalid / missing memories_history.json</h3>
+                <details class="faq-item">
+                    <summary>ZIP file is invalid / missing memories_history.json</summary>
                     <p>DateBack checks your ZIP for a file called <strong>memories_history.json</strong>. If it is
                         missing, your Snapchat export was requested without the right options. Go back to Snapchat's
                         data download page, make sure both <strong>"Export your Memories"</strong> and
                         <strong>"Export JSON Files"</strong> are toggled ON, and request a new export.</p>
-                </div>
+                </details>
 
-                <div class="faq-item">
-                    <h3>Not a recognized cloud folder</h3>
+                <details class="faq-item">
+                    <summary>Not a recognized cloud folder</summary>
                     <p>Cloud Mode only accepts folders inside a supported sync service. If you see <em>"Not a recognized
                             cloud folder. Choose iCloud Drive, Google Drive, OneDrive, Dropbox, or Box."</em>, pick a
                         folder that lives inside one of those five services. Folders set up via symlinks are not
                         allowed.</p>
-                </div>
+                </details>
 
-                <div class="faq-item">
-                    <h3>Retry Corrupted Files doesn't work</h3>
+                <details class="faq-item">
+                    <summary>Retry Corrupted Files doesn't work</summary>
                     <p>The retry feature requires a <strong>detailed_report.json</strong> file created by the previous
                         processing run. If that file is missing, the app will show <em>"No detailed_report.json found.
                             Run full processing first."</em> Complete a full processing run first, then use
                         <strong>Retry Corrupted Files</strong> from the completion screen.</p>
-                </div>
+                </details>
 
-                <div class="faq-item">
-                    <h3>Open Output Folder doesn't open anything</h3>
+                <details class="faq-item">
+                    <summary>Open Output Folder doesn't open anything</summary>
                     <p>For security, DateBack only opens folders that were approved during the current session. If you
                         restart the app or change your selected folder, the previous path is no longer active. To open
                         your output folder, re-run processing with the same folder selected, or navigate to it manually
                         in Finder. In Cloud Mode this button opens your cloud destination folder, not the local output
                         folder.</p>
-                </div>
+                </details>
             </div>
         </div>
     </section>

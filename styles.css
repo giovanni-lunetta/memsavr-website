@@ -215,14 +215,14 @@ nav.scrolled .nav-container {
 
 .nav-center {
     display: flex;
-    gap: 2rem;
+    gap: 1.25rem;
     align-items: center;
 }
 
 .nav-center a {
     color: var(--text-muted);
     text-decoration: none;
-    font-size: 0.95rem;
+    font-size: 0.875rem;
     font-weight: 500;
     transition: color 0.2s;
     position: relative;
@@ -1555,6 +1555,57 @@ nav.scrolled .nav-container {
     margin-bottom: 0;
     font-size: 1rem;
     padding-left: 38px;
+}
+
+/* --- FAQ ACCORDION (details/summary) --- */
+details.faq-item summary {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    list-style: none;
+    cursor: pointer;
+    font-size: 1.15rem;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 0;
+    user-select: none;
+}
+
+details.faq-item summary::-webkit-details-marker {
+    display: none;
+}
+
+details.faq-item summary::before {
+    content: '?';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 28px;
+    min-width: 28px;
+    background: var(--gradient-main);
+    border-radius: 8px;
+    font-size: 0.9rem;
+    font-weight: 700;
+    flex-shrink: 0;
+}
+
+details.faq-item summary::after {
+    content: '›';
+    font-size: 1.5rem;
+    line-height: 1;
+    color: var(--text-muted);
+    transition: transform 0.25s ease;
+    margin-left: auto;
+    flex-shrink: 0;
+}
+
+details.faq-item[open] summary::after {
+    transform: rotate(90deg);
+}
+
+details.faq-item[open] summary {
+    margin-bottom: 0.8rem;
 }
 
 /* --- EXPORT GUIDE ACCORDION --- */
