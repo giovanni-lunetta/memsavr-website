@@ -40,3 +40,9 @@ Temporary Items
 # Build outputs (if any)
 dist/
 build/
+
+# Internal audit / working notes (do not publish)
+LEGAL_DIFF_NOTES.md
+WEBSITE_CHANGES_APPLIED_*.md
+WEBSITE_IMPROVEMENTS_*.md
+FAQ_TRUTH_NOTES.md

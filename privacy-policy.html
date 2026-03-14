@@ -4,205 +4,259 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy - DateBack</title>
+    <title>Privacy Policy | DateBack</title>
+    <meta name="description" content="DateBack Privacy Policy. DateBack processes your Snapchat memories locally on your Mac. No photos are uploaded to our servers.">
+    <link rel="canonical" href="https://dateback.app/privacy-policy.html">
+
+    <meta property="og:title" content="Privacy Policy | DateBack">
+    <meta property="og:description" content="DateBack processes your Snapchat memories locally on your Mac. No photos are uploaded to our servers.">
+    <meta property="og:url" content="https://dateback.app/privacy-policy.html">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://dateback.app/images/og-image.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Privacy Policy | DateBack">
+    <meta name="twitter:description" content="DateBack processes your Snapchat memories locally on your Mac. No photos are uploaded to our servers.">
+    <meta name="twitter:image" content="https://dateback.app/images/og-image.png">
+
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="stylesheet" href="styles.css">
     <style>
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-            line-height: 1.6;
+        .legal-body {
             max-width: 800px;
             margin: 0 auto;
-            padding: 20px;
-            color: #333;
+            padding: 4rem 2rem 6rem;
+            line-height: 1.7;
         }
 
-        h1 {
-            color: #2c3e50;
-            border-bottom: 3px solid #3498db;
-            padding-bottom: 10px;
+        .legal-body h1 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
         }
 
-        h2 {
-            color: #34495e;
-            margin-top: 30px;
+        .legal-body h2 {
+            font-size: 1.25rem;
+            margin-top: 2.5rem;
+            margin-bottom: 0.75rem;
+            color: var(--text-primary);
         }
 
-        h3 {
-            color: #7f8c8d;
+        .legal-body h3 {
+            font-size: 1rem;
+            margin-top: 1.5rem;
+            margin-bottom: 0.5rem;
+            color: var(--text-muted);
         }
 
-        .summary {
-            background: #ecf0f1;
-            padding: 20px;
-            border-left: 4px solid #3498db;
-            margin: 20px 0;
+        .legal-body p,
+        .legal-body li {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
         }
 
-        .summary h2 {
-            margin-top: 0;
+        .legal-body ul,
+        .legal-body ol {
+            padding-left: 1.5rem;
         }
 
-        ul {
-            padding-left: 20px;
-        }
-
-        a {
-            color: #3498db;
-            text-decoration: none;
-        }
-
-        a:hover {
-            text-decoration: underline;
-        }
-
-        .last-updated {
-            color: #7f8c8d;
+        .legal-body .last-updated {
+            color: var(--text-muted);
             font-style: italic;
+            font-size: 0.9rem;
+            margin-bottom: 2rem;
+        }
+
+        .legal-summary {
+            background: rgba(255, 255, 255, 0.04);
+            border-left: 4px solid var(--accent-blue);
+            border-radius: 0 8px 8px 0;
+            padding: 1.5rem 2rem;
+            margin: 2rem 0;
+        }
+
+        .legal-summary h2 {
+            margin-top: 0;
         }
     </style>
 </head>
 
 <body>
-    <h1>Privacy Policy for DateBack</h1>
-    <p class="last-updated"><strong>Last Updated:</strong> February 12, 2026</p>
 
-    <h2>Introduction</h2>
-    <p>DateBack ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how we
-        collect, use, and safeguard your information when you use our desktop application.</p>
+    <nav>
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <img src="images/logo.png" alt="DateBack logo" class="logo-img">
+                DateBack<span>.app</span>
+            </a>
 
-    <h2>Information We Collect</h2>
+            <div class="nav-center">
+                <a href="index.html#features">Features</a>
+                <a href="index.html#pricing">Pricing</a>
+                <a href="index.html#faq">FAQ</a>
+                <a href="changelog.html">Changelog</a>
+                <a href="index.html#" onclick="openContactModal(); return false;">Support</a>
+            </div>
 
-    <h3>Information You Provide</h3>
-    <p><strong>Google Account Information:</strong> When you connect DateBack to Google Photos, we request permission to
-        upload photos to your Google Photos account. We only request the minimum permissions necessary
-        (<code>photoslibrary.appendonly</code> scope).</p>
+            <div class="nav-right">
+                <a href="https://buy.polar.sh/polar_cl_F1R601XKoGREXw1PxwvhUVIYz859VlG83okyn2I1WCI"
+                    class="nav-cta desktop-only" target="_blank" rel="noopener noreferrer">Buy &amp; Download for Mac —
+                    $10</a>
+                <button class="mobile-menu-btn" aria-label="Open menu" aria-expanded="false">☰</button>
+            </div>
+        </div>
 
-    <h3>Information We Do Not Collect</h3>
-    <ul>
-        <li><strong>Personal Data:</strong> DateBack does not collect, store, or transmit any personal information to
-            our servers.</li>
-        <li><strong>Usage Analytics:</strong> We do not track your usage of the application.</li>
-        <li><strong>Photo Content:</strong> Your photos are processed locally on your device and uploaded directly to
-            Google Photos. We never access, store, or view your photo content.</li>
-    </ul>
+        <div class="mobile-menu">
+            <a href="index.html#features">Features</a>
+            <a href="index.html#pricing">Pricing</a>
+            <a href="index.html#faq">FAQ</a>
+            <a href="changelog.html">Changelog</a>
+            <a href="index.html#" onclick="openContactModal(); return false;">Support</a>
+            <a href="https://buy.polar.sh/polar_cl_F1R601XKoGREXw1PxwvhUVIYz859VlG83okyn2I1WCI" class="nav-cta"
+                style="margin: 1rem 20px; display: inline-block; text-align: center;" target="_blank"
+                rel="noopener noreferrer">Buy &amp; Download for Mac — $10</a>
+        </div>
+    </nav>
 
-    <h2>How We Use Your Information</h2>
+    <main class="legal-body">
+        <h1>Privacy Policy for DateBack</h1>
+        <p class="last-updated"><strong>Last Updated:</strong> March 14, 2026</p>
 
-    <h3>Google Photos Integration</h3>
-    <p>When you connect DateBack to Google Photos:</p>
-    <ol>
-        <li><strong>Authentication:</strong> We use OAuth 2.0 to securely authenticate with your Google account</li>
-        <li><strong>Token Storage:</strong> Authentication tokens are stored securely in your macOS Keychain</li>
-        <li><strong>Photo Upload:</strong> Photos are uploaded directly from your device to your Google Photos account
-        </li>
-        <li><strong>No Server Transmission:</strong> All processing happens locally on your device</li>
-    </ol>
+        <div class="legal-summary">
+            <h2>Summary</h2>
+            <p><strong>What DateBack does:</strong></p>
+            <ul>
+                <li>✅ Processes your Snapchat export entirely on your own Mac</li>
+                <li>✅ Sends your license key to Polar.sh to validate your purchase (see below)</li>
+                <li>✅ Writes processed files to a folder you choose on your computer or your own cloud sync folder</li>
+            </ul>
+            <p><strong>What DateBack does NOT do:</strong></p>
+            <ul>
+                <li>❌ Upload your photos or videos to our servers (we have none)</li>
+                <li>❌ Collect or store your personal information</li>
+                <li>❌ Track your usage</li>
+                <li>❌ Share your data with third parties beyond license validation</li>
+            </ul>
+            <p><strong>Your privacy is our default. DateBack is designed to work offline.</strong></p>
+        </div>
 
-    <h3>Permissions We Request</h3>
-    <p><strong><code>photoslibrary.appendonly</code>:</strong> This permission allows DateBack to:</p>
-    <ul>
-        <li>Upload new photos to your Google Photos library</li>
-        <li>Create albums in your Google Photos account</li>
-    </ul>
+        <h2>Introduction</h2>
+        <p>DateBack ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how
+            we handle your information when you use our desktop application.</p>
 
-    <p>This permission does NOT allow DateBack to:</p>
-    <ul>
-        <li>Read your existing photos</li>
-        <li>Delete photos</li>
-        <li>Modify existing photos</li>
-        <li>Access any other Google services</li>
-    </ul>
+        <h2>Information We Collect</h2>
 
-    <h2>Data Storage and Security</h2>
+        <h3>License Key</h3>
+        <p>When you activate DateBack, you enter the license key you received by email after purchase. The app sends
+            that key to <strong>Polar.sh</strong> (our payment and licensing platform) over HTTPS to verify it is
+            valid. Polar stores purchase records in accordance with their own
+            <a href="https://polar.sh/legal/privacy" target="_blank" rel="noopener noreferrer">Privacy Policy</a>.
+            DateBack stores the validation result locally on your device so the app does not need to re-validate on
+            every launch.
+        </p>
 
-    <h3>Local Storage</h3>
-    <ul>
-        <li>All photo processing occurs locally on your device</li>
-        <li>Processed photos are stored in the location you specify</li>
-        <li>No photos are uploaded to DateBack servers (we don't have any servers)</li>
-    </ul>
-
-    <h3>Token Security</h3>
-    <ul>
-        <li>OAuth tokens are stored securely in your macOS Keychain</li>
-        <li>Tokens are encrypted by the operating system</li>
-        <li>Tokens are only used to authenticate API requests to Google Photos</li>
-        <li>You can revoke access at any time through your Google Account settings</li>
-    </ul>
-
-    <h2>Third-Party Services</h2>
-
-    <h3>Google Photos API</h3>
-    <p>When you use the Google Photos integration:</p>
-    <ul>
-        <li>Photos are uploaded directly to Google's servers</li>
-        <li>Google's Privacy Policy applies to data stored in Google Photos</li>
-        <li>View Google's Privacy Policy: <a href="https://policies.google.com/privacy"
-                target="_blank">https://policies.google.com/privacy</a></li>
-    </ul>
-
-    <h3>No Other Third Parties</h3>
-    <p>DateBack does not share your data with any other third parties.</p>
-
-    <h2>Your Rights and Choices</h2>
-
-    <h3>Access and Control</h3>
-    <ul>
-        <li><strong>View Connected Accounts:</strong> Check which Google account is connected in Settings</li>
-        <li><strong>Disconnect:</strong> Remove Google Photos integration at any time from Settings</li>
-        <li><strong>Revoke Access:</strong> Revoke DateBack's access through your Google Account settings</li>
-        <li><strong>Delete Data:</strong> Uninstalling DateBack removes all local data and tokens</li>
-    </ul>
-
-    <h3>Data Deletion</h3>
-    <p>To delete all data associated with DateBack:</p>
-    <ol>
-        <li>Disconnect Google Photos in DateBack Settings</li>
-        <li>Revoke access in your Google Account settings</li>
-        <li>Uninstall DateBack from your device</li>
-        <li>Delete any processed photos from your local storage</li>
-    </ol>
-
-    <h2>Children's Privacy</h2>
-    <p>DateBack is not intended for use by children under 13. We do not knowingly collect information from children
-        under 13.</p>
-
-    <h2>Changes to This Privacy Policy</h2>
-    <p>We may update this Privacy Policy from time to time. We will notify you of any changes by:</p>
-    <ul>
-        <li>Updating the "Last Updated" date</li>
-        <li>Displaying a notice in the application</li>
-        <li>Posting the new Privacy Policy on our website</li>
-    </ul>
-
-
-
-    <h2>10. Contact Us</h2>
-    <p>If you have questions about this Privacy Policy or DateBack's data practices, contact us at:</p>
-    <p><strong>Email:</strong> support@dateback.app</p>
-    <p><strong>Website:</strong>
-        <a href="https://dateback.app" target="_blank">https://dateback.app</a>
-    </p>
-
-    <div class="summary">
-        <h2>Summary</h2>
-        <p><strong>What DateBack Does:</strong></p>
+        <h3>What We Do Not Collect</h3>
         <ul>
-            <li>✅ Processes photos locally on your device</li>
-            <li>✅ Uploads photos directly to your Google Photos account (with your permission)</li>
-            <li>✅ Stores authentication tokens securely in your macOS Keychain</li>
+            <li><strong>Personal data:</strong> DateBack does not intentionally collect, store, or transmit personal
+                information to our servers.</li>
+            <li><strong>Usage analytics:</strong> We do not knowingly collect usage or analytics data from the
+                Application.</li>
+            <li><strong>Photo or video content:</strong> Your memories are processed locally on your device. We do not
+                access, store, or view your photo or video content.</li>
         </ul>
 
-        <p><strong>What DateBack Does NOT Do:</strong></p>
+        <h2>How Your Files Are Processed</h2>
+        <p>DateBack reads your downloaded Snapchat ZIP file, processes the media files locally on your Mac, and writes
+            the results to the output folder you choose. In Cloud Mode, the processed files are written into a folder
+            inside your own cloud sync service (iCloud Drive, Google Drive, OneDrive, Dropbox, or Box). DateBack does
+            not initiate any upload calls to those services — syncing is handled entirely by your cloud sync client
+            running on your Mac, under your own account.</p>
+
+        <h2>Data Storage and Security</h2>
+
+        <h3>Local Storage</h3>
         <ul>
-            <li>❌ Collect or store your personal information</li>
-            <li>❌ Upload photos to our servers (we don't have any)</li>
-            <li>❌ Track your usage</li>
-            <li>❌ Share your data with third parties</li>
-            <li>❌ Read, modify, or delete your existing Google Photos</li>
+            <li>All photo and video processing occurs locally on your device.</li>
+            <li>Processed files are stored in the location you specify.</li>
+            <li>No media files are sent to DateBack servers.</li>
         </ul>
 
-        <p><strong>Your privacy is important to us. DateBack is designed with privacy-first principles.</strong></p>
-    </div>
+        <h3>License Validation State</h3>
+        <ul>
+            <li>The app stores the result of a successful license validation locally (via electron-store on your
+                Mac).</li>
+            <li>This local record contains only the validation status — not your payment details.</li>
+            <li>Uninstalling DateBack removes all locally stored application data.</li>
+        </ul>
+
+        <h2>Third-Party Services</h2>
+
+        <h3>Polar.sh (License Validation)</h3>
+        <p>When you activate your license key, DateBack calls the Polar.sh license validation API over HTTPS. The
+            key you enter is transmitted to Polar solely to verify your purchase. Polar's Privacy Policy applies to
+            data stored on their platform:
+            <a href="https://polar.sh/legal/privacy" target="_blank" rel="noopener noreferrer">polar.sh/legal/privacy</a>.
+        </p>
+
+        <h3>No Other Third Parties</h3>
+        <p>DateBack does not intentionally share your data with third parties beyond the license validation described
+            above. To our knowledge, the Application does not include analytics, crash-reporting, or telemetry
+            services.</p>
+
+        <h2>Your Rights and Choices</h2>
+
+        <h3>Access and Control</h3>
+        <ul>
+            <li><strong>Local data:</strong> All processed files are in the output folder you chose — you own and
+                control them entirely.</li>
+            <li><strong>License data:</strong> Uninstalling DateBack removes all locally stored license state.</li>
+            <li><strong>Cloud sync:</strong> Any files written to a cloud sync folder are synced by your cloud
+                provider under your own account and settings.</li>
+        </ul>
+
+        <h2>Children's Privacy</h2>
+        <p>DateBack is not intended for use by children under 13. We do not knowingly collect information from
+            children under 13.</p>
+
+        <h2>Changes to This Privacy Policy</h2>
+        <p>We may update this Privacy Policy from time to time. We will notify you of significant changes by updating
+            the "Last Updated" date and posting the new policy on our website.</p>
+
+        <h2>Contact Us</h2>
+        <p>If you have questions about this Privacy Policy or DateBack's data practices, contact us at:</p>
+        <p><strong>Email:</strong> <a href="mailto:support@dateback.app">support@dateback.app</a></p>
+        <p><strong>Website:</strong> <a href="https://dateback.app">https://dateback.app</a></p>
+
+        <p style="margin-top: 3rem;"><a href="index.html" style="color: var(--accent-blue);">← Back to DateBack.app</a></p>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-logo">DateBack<span>.app</span></div>
+
+            <div class="footer-links">
+                <a href="index.html#features">Features</a>
+                <a href="index.html#export-guide">Export Guide</a>
+                <a href="index.html#faq">FAQ</a>
+                <a href="changelog.html">Changelog</a>
+                <a href="https://dateback.app/licenses/ffmpeg-source.zip">Open Source / Licenses</a>
+                <a href="privacy-policy.html">Privacy Policy</a>
+                <a href="terms-of-service.html">Terms of Service</a>
+            </div>
+
+            <p style="font-size: 0.85rem; color: var(--text-muted);">
+                Requires macOS 11+ and Apple Silicon (M1, M2, M3, or M4)
+            </p>
+
+            <p>&copy; 2026 Giovanni Lunetta. All rights reserved.</p>
+
+            <p class="disclaimer">
+                DateBack is a third-party utility and is not affiliated with, endorsed by, or sponsored by any social
+                media platform. All trademarks are property of their respective owners.
+            </p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
 </body>
 
 </html>
