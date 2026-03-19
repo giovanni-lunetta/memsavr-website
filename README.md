@@ -38,10 +38,13 @@ python3 -m http.server 8000
 npx http-server -p 8000
 ```
 
+Additional local-device testing notes live in `docs/MOBILE_TESTING_LOCAL_WEBSITE.md`.
+
 ## 📁 Project Structure
 
 ```
 dateback-website/
+├── docs/               # Repo-local notes for website development/testing
 ├── index.html          # Main landing page
 ├── changelog.html      # Release notes
 ├── styles.css          # All styles
