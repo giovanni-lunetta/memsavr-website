@@ -441,6 +441,13 @@ nav.scrolled .nav-container {
     opacity: 0;
 }
 
+.system-requirements {
+    font-size: 0.85rem;
+    color: var(--text-muted, #888);
+    margin-top: 0.5rem;
+    text-align: center;
+}
+
 .hero-carousel {
     margin-top: 3rem;
     position: relative;
