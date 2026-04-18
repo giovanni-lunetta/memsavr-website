@@ -32,7 +32,7 @@
             <div class="nav-right">
                 <a href="https://buy.polar.sh/polar_cl_F1R601XKoGREXw1PxwvhUVIYz859VlG83okyn2I1WCI"
                     class="nav-cta desktop-only" target="_blank" rel="noopener noreferrer">Buy &amp; Download for Mac —
-                    $10</a>
+                    $1.99</a>
                 <button class="mobile-menu-btn" aria-label="Open menu" aria-expanded="false">☰</button>
             </div>
         </div>
@@ -46,7 +46,7 @@
             <a href="index.html#faq">FAQ</a>
             <a href="https://buy.polar.sh/polar_cl_F1R601XKoGREXw1PxwvhUVIYz859VlG83okyn2I1WCI" class="nav-cta"
                 style="margin: 1rem 20px; display: inline-block; text-align: center;" target="_blank"
-                rel="noopener noreferrer">Buy &amp; Download for Mac — $10</a>
+                rel="noopener noreferrer">Buy &amp; Download for Mac — $1.99</a>
         </div>
     </nav>
 
@@ -66,8 +66,22 @@
     <section id="release-notes" style="padding-top: 2rem;">
         <div class="container">
             <div class="changelog-container">
-                <!-- v1.1.4 - Latest (Expanded by default) -->
+                <!-- v1.2.0 - Latest (Expanded by default) -->
                 <details class="changelog-entry" open>
+                    <summary class="changelog-version">
+                        <span class="version-badge">v1.2.0</span>
+                        <span class="version-date">March 19, 2026</span>
+                    </summary>
+                    <ul class="changelog-list">
+                        <li>Backend — Organizer worker state tracking: prevents orphaned processes on quit or restart</li>
+                        <li>Backend — Cloud resume continuity: batch numbering now correctly continues from existing delivered Batch folders instead of restarting at Batch_01</li>
+                        <li>Backend — IPC hardening: additional security checks and process lifecycle guards</li>
+                        <li>UI — Cloud mode copy updated to accurately describe Batch folder delivery into the synced destination</li>
+                    </ul>
+                </details>
+
+                <!-- v1.1.4 -->
+                <details class="changelog-entry">
                     <summary class="changelog-version">
                         <span class="version-badge">v1.1.4</span>
                         <span class="version-date">March 12, 2026</span>
